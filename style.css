@@ -1,0 +1,318 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.bill-header {
+  width: 1170px;
+  margin: auto;
+}
+
+.bill {
+  background: #3e323f;
+  color: white;
+}
+
+.header_wrap {
+  display: flex;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+}
+
+.bill-img {
+  border-radius: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.bill-title {
+  color: #e3e9f3;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 40px;
+  color: #e3e9f3;
+  padding-bottom: 13px;
+}
+
+.bill-subtitle {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 19px;
+  color: #e3e9f3;
+}
+
+.objective {
+  background-color: #e9e9e9;
+  padding-right: 35%;
+  padding-top: 15px;
+}
+
+.objective_heading {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 23px;
+  color: #3f313f;
+
+  padding-bottom: 25px;
+  padding-top: 65px;
+}
+
+.objective_text {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #3f313f;
+
+  padding-bottom: 15px;
+}
+
+.experience {
+  background-color: #e9e9e9;
+  padding-right: 35%;
+}
+
+.experience_heading {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 23px;
+  color: #3f313f;
+
+  padding-top: 80px;
+  padding-bottom: 25px;
+}
+
+.experience_wrapper {
+  display: flex;
+}
+
+.experience_text {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #3f313f;
+
+  padding-right: 92px;
+}
+
+.experience_title {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #3f313f;
+}
+
+.experience_content {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #3f313f;
+
+  padding-left: 179px;
+}
+
+.ex__head {
+  padding-left: 16px;
+}
+
+.skills {
+  background-color: #e9e9e9;
+  padding-right: 35%;
+}
+
+.skills_heading {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 23px;
+  color: #3f313f;
+
+  padding-top: 80px;
+  padding-bottom: 25px;
+}
+
+.skills_text {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #3f313f;
+
+  padding-bottom: 80px;
+}
+
+.language {
+  background-color: #e9e9e9;
+  padding-right: 35%;
+}
+
+.language_item {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  list-style-type: none;
+}
+
+.form {
+  background-color: #e5d7d2;
+}
+
+.form_container {
+  display: flex;
+  justify-content: center;
+}
+
+.form_heading {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 23px;
+  color: #3f313f;
+  padding-top: 40px;
+  text-align: center;
+  padding-bottom: 11px;
+}
+
+.area_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.form-text {
+  width: 736px;
+  border: 5px solid #beb1ae;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: #e5d7d2;
+  font-weight: bold;
+  resize: none;
+}
+
+.name {
+  margin: 10px;
+  padding: 10px;
+}
+
+.e-mail {
+  margin: 10px;
+  padding: 10px;
+}
+
+.form-user {
+  border: none;
+  border-bottom: 2px solid;
+  background-color: #e5d7d2;
+  width: 350px;
+}
+
+.form-email {
+  border: none;
+  border-bottom: 2px solid;
+  background-color: #e5d7d2;
+  width: 350px;
+}
+
+.form-text {
+  border: none;
+  border-bottom: 2px solid;
+  background-color: #e5d7d2;
+  line-height: 3px;
+}
+
+button {
+  width: 168px;
+  height: 40.28px;
+  background: #3e323f;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 13px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 95px;
+}
+
+.btn {
+  padding: 10px;
+}
+
+.contacts {
+  background: #3e323f;
+}
+
+.contacts_heading {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 23px;
+  color: #ffffff;
+
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.contacts_list {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 40px;
+  color: white;
+  list-style-type: none;
+}
+
+.contacts_item {
+  list-style-type: none;
+}
+
+.contacts_link {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contacts_link:hover {
+  opacity: 0.6;
+}
+
+.footer {
+  background: #3e323f;
+  color: grey;
+  text-align: center;
+  padding-bottom: 13px;
+}
